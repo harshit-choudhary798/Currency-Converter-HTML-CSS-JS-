@@ -1,0 +1,760 @@
+:root {
+  /* --color-primary: #4854a4; */
+  --color-primary: #4854a4;
+
+}
+
+
+body {
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+  /* background: url('alexander-schimmeck-j5NU6WZN1nA-unsplash.jpg'); */
+  background: url('steve-johnson-WVUrbhWtRNM-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  /* l */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section1 {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 60%;
+  margin: 50px auto;
+  background-color: white;
+  /* border-radius: 20px; */
+  box-sizing: content-box;
+}
+
+.table-headers {
+  position: fixed;
+  top: 0px;
+}
+
+
+
+body {
+  font-family: 'Euclid Circular B', sans-serif;
+
+  margin: 0px;
+  width: 100%;
+
+}
+
+.divide {
+
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+}
+
+.Heading {
+  background-color: var(--color-primary);
+  display: flex;
+  color: white;
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+  border-radius: 5px;
+  /* width: 50%; */
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Euclid Circular B', sans-serif;
+
+  height: fit-content;
+}
+
+.heading-part-1 {
+  text-align: left;
+  margin: 0px;
+}
+
+.Title {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-family: 'EuclidCircularB', sans-serif;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #fff;
+  margin-top: 6px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: 'Euclid Circular B', sans-serif;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.convert-label {
+  text-align: center;
+  font-weight: 900;
+  color: var(--color-primary);
+  font-family: sans-serif;
+}
+
+.convert-label-section {
+  border-bottom: 3px solid var(--color-primary);
+}
+
+form {
+  margin-top: 27px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+input[type=number],
+select {
+
+  margin: 8px 0;
+}
+
+input[type=number]:focus,
+select:focus {
+  outline: none;
+  outline: none;
+  border: 1px solid #212e66 !important;
+}
+
+select .form-item {}
+
+.part2 {
+  width: 99%;
+}
+
+
+
+/* select{
+  font-family: 'Playfair Display', serif;
+  color: #212e66;
+  font-weight: 900;
+} */
+
+
+
+#icon {
+  cursor: pointer;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* display: inline; */
+  position: relative;
+  top: 10px;
+}
+
+label {
+  font-family: 'Euclid Circular B', sans-serif !important;
+}
+
+
+p {
+  text-align: left;
+}
+
+.form1 {
+
+  /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+
+  /* margin: 10px 0 0; */
+  padding: 60px;
+
+  margin-bottom: -42px;
+
+
+}
+
+.btn1 {
+  background-color: #4657A1;
+  border: none;
+  width: 17%;
+  color: white;
+  padding: 10px 43px;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: 'Euclid Circular B', sans-serif !important;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #212e66;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+
+
+
+
+.items123 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.item1 {
+  width: 33%;
+}
+
+.item2 {
+  width: 22%;
+}
+
+.item3 {
+  width: 22%;
+}
+
+
+
+
+table {
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  font-family: 'Euclid Circular B', sans-serif !important;
+
+}
+
+
+th {
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4657A1;
+  color: white;
+  height: 30px;
+}
+
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+
+}
+
+
+tr {
+  color: #4854a4;
+
+
+}
+
+
+/* Set the width and color of the scrollbar thumb (the draggable part) */
+#table .table-container::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
+
+#table .table-container::-webkit-scrollbar-thumb {
+  background: #4854a4; 
+  width: 4px; 
+  height: 2px; 
+}
+
+/* Set the background of the scrollbar track (the non-draggable part) */
+#table .table-container::-webkit-scrollbar-track {
+  background: #fff; 
+}
+
+
+#table .table-container::-webkit-scrollbar-corner {
+  
+}
+
+
+
+
+
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+table {
+  background-color: white;
+}
+
+
+
+tr:hover {
+  background-color: #ddd;
+}
+
+
+label {
+
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  /* border-bottom: 3px solid #4854a4; */
+}
+
+option {
+  background-color: #212e66;
+  color: white;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  height: 100px !important;
+
+}
+
+input {
+
+  width: 100%;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 6px;
+  box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+  padding: 12px;
+  color: rgb(20, 30, 55);
+  background: none;
+}
+
+
+
+select {
+
+  width: 100%;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 6px;
+  box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+  padding: 12px;
+  color: rgb(20, 30, 55);
+  background: none;
+}
+
+
+.btns {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Style for the button that toggles the collapse */
+.toggle-button {
+  border: 1px solid darkblue;
+  border-radius: 20px;
+  background-color: none;
+  text-align: center;
+
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+
+  width: 95%;
+}
+
+.toggle-button:focus {
+  background-color: #212e66;
+
+}
+
+
+
+.collapsed-table {
+  display: none;
+}
+
+
+.error-message {
+  color: red;
+  display: none;
+  margin-top: 5px;
+  /* Add some margin to avoid layout distortion */
+}
+
+
+
+
+.align-start {
+  align-items: flex-start;
+}
+
+
+
+
+#answer {
+
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 4px;
+  color: #212e66;
+  font-size: 1.4rem;
+
+
+}
+
+
+
+
+
+
+
+#cut_btn {
+  position: absolute;
+  right: 2%;
+  display: none;
+}
+
+
+.btn1 {
+  width: max-content;
+}
+
+.part2 {
+  width: 94%;
+  /* margin: 40px 0 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+    /* flex-direction: column; */
+}
+
+#table {
+  height: max-content;
+  width: 60%;
+  margin: 0 auto;
+  animation: idea 0.5s ease;
+  transform-origin: top;
+  /* Set the transform origin to the top */
+}
+
+@keyframes idea {
+  from {
+    max-height: 0;
+    transform: scaleY(0);
+    /* Scale the element vertically from 0 to 1 */
+    opacity: 0;
+  }
+
+  to {
+
+    transform: scaleY(1);
+    /* Scale the element vertically from 0 to 1 */
+    opacity: 1;
+  }
+}
+
+
+
+
+.table-container {
+  max-height: 300px;
+  /* Set your preferred max height here */
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  /* Header background color */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+
+
+
+input,
+select {
+  font-size: 1.1em;
+}
+
+
+
+
+.button-container {
+  display: none;
+}
+
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.btn-bg-color {
+  background-color: #4854a4;
+  /* You can change the color code as per your preference */
+  color: #fff;
+  /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-transparent-dark-blue {
+  background-color: whitesmoke;
+  color: #336699;
+  /* Dark blue text color */
+  border: 2px solid #336699;
+  /* Dark blue border */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-transparent-dark-blue:hover {
+  background-color: #4854a4;
+  /* Dark blue background color on hover */
+  color: white !important;
+  /* Dark blue text color on hover */
+  cursor: pointer;
+  /* Change cursor style on hover */
+}
+
+
+
+
+
+@media screen and (min-width:1051px) and (max-width:1374px){
+
+}
+
+
+@media screen and (max-width:1214px){
+
+
+
+  .form1{
+    padding: 22px;
+  }
+
+  
+
+
+}
+
+@media screen and (max-width:1051px) {
+  .form1{
+    padding-top: 0px;
+  }
+  .items123{
+    display: block;
+    width: 100%;
+  }
+
+
+  select{
+    width: 100%;
+  }
+  input{
+    width: 95%;
+  }
+.form-item{
+  margin-top: 40px;
+  width: 100%;
+}
+.btn1{
+ 
+ 
+ 
+  font-size: 15px;
+   
+}
+
+#answer{
+  font-weight: 400;
+}
+
+#icon{
+  display: none;
+}
+
+body{
+  margin: 0px;
+}
+.divide{
+  width: 100%;
+  box-shadow: none;
+  padding: 0px;
+}
+table{
+  width: 100%;
+  padding: 0px;
+}
+.button-container{
+  width: 100%;
+  text-align: center;
+}
+.toggle-button{
+  width: 100%;
+  text-align: center;
+}
+h1 .Title{
+  font-size: 16px !important; 
+}
+
+.main-container{
+  width: 100%;
+}
+
+.toggle-button {
+  text-align: center;
+  /* margin-top: 50px !important; */
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+
+  /* width: 95%; */
+}
+
+.toggle-button {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.btn-transparent-dark-blue {
+  padding: 5px 20px;
+}
+
+
+}
+
+@media screen and (max-width:899px) {
+  .part2 {
+    width: 94%;
+    /* margin: 40px 0 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center /* flex-direction: column; */;
+    flex-direction: column;
+}
+
+
+
+}
+
+@media screen and (max-width:768px){
+      
+  .section1{
+        width: 90%;
+      }
+      #table{
+        width: 90%;
+      }
+}
+
+@media screen and (max-width:426px){
+  .section1{
+    width: 100%;
+  }
+  #table{
+    width: 100%;
+  }
+  body{
+    background: none;
+  }
+
+
+  .btn-transparent-dark-blue {
+    padding: 6px 19px;
+}
+
+
+.Title {
+  /* width: 50%; */
+  font-size: 17px;
+  line-height: 1;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-family: 'EuclidCircularB', sans-serif;
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+
+.subtitle{
+  display: none;
+}
+
+svg{
+  width: 49%;
+}
+
+.Heading{
+  border-radius: 0;
+}
+
+}
+
+
+@media screen and (min-width:375px) and  (max-width:426px) {
+  svg{
+    width: 45%
+  }
+  .Title{
+    font-size: 23px;
+  }
+}
+
+
+@media screen and (min-width:427px) and  (max-width:610px) {
+  svg{
+    width: 22%
+  }
+  .Title {
+    padding-left: 10px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-family: 'EuclidCircularB', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.subtitle{
+  display: none;
+}
+
+
+}
